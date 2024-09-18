@@ -9,6 +9,7 @@ Els **fitxers plans** són els més senzills. Emmagatzemen la informació com a 
 ### 2. Fitxers d'accés directe
 Els **fitxers d'accés directe** permeten accedir a qualsevol registre del fitxer sense necessitat de llegir tot el contingut prèviament. Això es fa utilitzant una adreça o una clau única que identifica la ubicació del registre. Són ideals per a situacions en què es requereix un accés ràpid i eficient a les dades. Son fitxers binaris, si els obrim amb un editor de text només veurem caràcters especials.
 
+```
 +----------------------------+
 |   FITXER D'ACCÉS DIRECTE    |
 +----------------------------+
@@ -20,7 +21,7 @@ Els **fitxers d'accés directe** permeten accedir a qualsevol registre del fitxe
 +----------------------------+
 |  Registre 4  |  Adreça 004  |
 +----------------------------+
-
+```
 
 ### 3. Fitxers indexats
 Els **fitxers indexats** fan ús d'un índex per accelerar l'accés a la informació. Aquests índexs permeten accedir a determinats registres de manera més ràpida que en un fitxer pla, ja que l'índex actua com una guia que apunta a la ubicació exacta de les dades dins del fitxer. Son fitxers binaris, si els obrim amb un editor de text només veurem caràcters especials.
