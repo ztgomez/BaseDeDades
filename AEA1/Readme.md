@@ -1,5 +1,20 @@
 # Introducció a les bases de dades
 
+## Material
+
+* [Concepte i ús dels sistemes gestors de bases de dades](./concepte-i-us-dels-sistemes-gestors-de-bases-de-dades/readme.md)
+* [Emmagatzemar informació en fitxers](./emmagatzemar-info-en-fitxers/Readme.md)
+* [Avantatge i inconvenients de les bases de dades](./AvantatgesInconvenients/Readme.md)
+* [Android saving data](./android-saving-data/readme.md)
+* [Base de dades relacionals vs NoSQL](./bdrelacionals-vs-nosql/Readmd.md)
+
+## ToDO
+
+* Bases de dades distribuides
+* Legislació en Protecció de Dades
+* Big data i intel·ligència de negoci
+
+
 ## Resultats d'aprenentatge que treballarem
 
 1. Reconeix els elements de les bases de dades analitzant-ne les funcions i valorant la utilitat dels sistemes gestors.
@@ -24,11 +39,3 @@
    * 1.4. Bases de dades centralitzades i bases de dades distribuïdes. Tècniques de fragmentació.
    * 1.5. Legislació sobre protecció de dades.
    * 1.6. Big Data: introducció, anàlisi de dades, intel·ligència de negocis.
-
-## Material
-
-* [Concepte i ús dels sistemes gestors de bases de dades](./concepte-i-us-dels-sistemes-gestors-de-bases-de-dades/readme.md)
-* [Emmagatzemar informació en fitxers](./emmagatzemar-info-en-fitxers/Readme.md)
-* [Avantatge i inconvenients de les bases de dades](./AvantatgesInconvenients/Readme.md)
-* [Android saving data](./android-saving-data/readme.md)
-* [Base de dades relacionals vs NoSQL](./bdrelacionals-vs-nosql/Readmd.md)
