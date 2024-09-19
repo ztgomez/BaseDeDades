@@ -21,8 +21,8 @@ Cadascun d'aquests models té avantatges segons el tipus d'aplicació, necessita
 
 1. StackOverflow és una web de referència al món del desenvolupament de programari. Consulta quantes preguntes hi ha en total a la web stackoverflow.com. 
 2. Consulta la defininció que trobem a StackOverflow per els següents Tags, comprova també quantes consultes hi ha per cadascun d'ells: Oracle, SQL-Server, MYSQL, postgresql, MongoDB, Cassandra, ms-access, sqlite. Per cadascun d'ells busca altres tags relacionats.
-2. Stackoverflow emmagatzema les preguntes i respostes un una base de dades sql-server. Es poden realitzar consultes via web a aquesta base de dades. Observa la consulta: https://data.stackexchange.com/stackoverflow/query/483836/database-ranking . Amb el resultat fes una taula on es vegi quin % de les preguntes d'stackoverflow són relatives a cadascun d'aquests tags tant als darrers dos anys com des de l'inici del servei. Utilitza el resultat de la consulta i un full de càlcul.
-4. Existeixen definicions molt més formals del que és un SGBD. Busca alguna d'aquestes definicions en anglès i tradueix-la al teu idioma. Busca per 'Database Management System'.
+2. Cadascú d'aquests tags són bases de dades, quines són relacionals i quines són NoSQL.
+4. Existeixen definicions molt més formals del que és un SGBD del que hi ha en aquesta documentació. Busca alguna d'aquestes definicions en anglès i tradueix-la al teu idioma. Busca per 'Database Management System'.
 5. El sistema gestor de base de dades pot ser un procés que s'executa a la màquina ( ex: Oracle, SQL Server, MYSQL ) o bé poden ser unes llibreries, unes dll en el cas Windows ( ex: Access, sqlite ). Observa aquestes captures del gestor de tasques i digues a quin SGBD creus que es corresponen.
 
 ![Oracle](http://i.imgur.com/CbtJX2J.png)
