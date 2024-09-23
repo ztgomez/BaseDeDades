@@ -14,4 +14,6 @@ Això afecta també a les bases de dades distribuides.
 
 ![Visual Guide to NoSQL Systems](https://phaven-prod.s3.amazonaws.com/files/image_part/asset/607361/CausfGVcU2tskB-TR5b8CMm8Keg/medium_media_httpfarm5static_mevIk.png)
 
-2. Per que l'autor de la pregunta d'stackoverflow "[Where does mongodb stand in the CAP theorem?](http://stackoverflow.com/questions/11292215/where-does-mongodb-stand-in-the-cap-theorem)" diu que Mongo és un sistema 'CA'? A que es refereix amb 'CA'?
+2. Per que creus que tots es SGBDR (Sistemes gestors de base de dades relacionals) són 'CA' ? Si crees una xarxa social quina seria la combinació que més t'interessaria? Per què?
+
+3. Per que l'autor de la pregunta d'stackoverflow "[Where does mongodb stand in the CAP theorem?](http://stackoverflow.com/questions/11292215/where-does-mongodb-stand-in-the-cap-theorem)" diu que Mongo és un sistema 'CA'? A que es refereix amb 'CA'?
