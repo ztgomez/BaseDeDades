@@ -22,6 +22,8 @@ Store private, primitive data in **key-value pairs**.
 Store structured data in a private database using the **Room persistence library**.
 
 
-* Quins tres tipus de mecanismes podem fer servir per a desar dades?
-* Per a què estan pensats cadasqun d'aquests mecanismes?
-* Quin Sistema Gestor de Base de Dades fa servir Android?
+## Exercicis
+
+* Quins tipus de mecanismes podem fer servir per a desar dades?
+* Per a quins casos d'ús estan pensats cadasqun d'aquests mecanismes?
+* Quin SGBD utilitza la "Room persistence library"?
