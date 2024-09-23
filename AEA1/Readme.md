@@ -6,6 +6,7 @@
 * [Emmagatzemar informació en fitxers](./emmagatzemar-info-en-fitxers/Readme.md)
 * [Avantatge i inconvenients de les bases de dades](./AvantatgesInconvenients/Readme.md)
 * [Android saving data](./android-saving-data/readme.md)
+* [Components ACID en un SGBD](./transaccions-acid/readme.md)
 * [Base de dades relacionals vs NoSQL](./bdrelacionals-vs-nosql/Readme.md)
 * [Base de dades distribuida - Conceptes](./base-de-dades-distribuida-components/readme.md)
 * [Base de dades distribuida - Teorema CAP](./base-de-dades-distribuida-teorema-cap/readme.md)
