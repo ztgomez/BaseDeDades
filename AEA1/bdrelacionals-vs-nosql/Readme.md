@@ -66,7 +66,7 @@ Cadascun d'aquests models té avantatges segons el tipus d'aplicació, necessita
 | Lenguaje de consulta               | SQL (Structured Query Language)   | Varios: consultas específicas para cada tipo (MongoDB Query Language, CQL, etc.) |
 | Consistencia                       | Alta consistencia (ACID)          | Eventual consistencia (BASE), depende del tipo de NoSQL |
 | Idoneidad para                     | Aplicaciones transaccionales, sistemas financieros | Aplicaciones con grandes volúmenes de datos, big data, redes sociales |
-| Ejemplos                           | MySQL, PostgreSQL, Oracle         | MongoDB, Cassandra, Redis, Neo4j   |
+| Ejemplos                           | MySQL, PostgreSQL, Oracle, SQLServer         | MongoDB, Cassandra, Redis, Neo4j   |
 | Manejo de grandes volúmenes de datos| Menos eficiente                  | Más eficiente, especialmente en lectura |
 | Flexibilidad de datos              | Rígido, cambios en el esquema requieren migraciones | Alta flexibilidad, adaptado a datos semiestructurados |
 
