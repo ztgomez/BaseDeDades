@@ -24,6 +24,6 @@ Store structured data in a private database using the **Room persistence library
 
 ## Exercicis
 
-* Quins tipus de mecanismes podem fer servir per a desar dades?
+* Quins tipus de mecanismes podem fer servir per a desar dades amb Android?
 * Per a quins casos d'ús estan pensats cadasqun d'aquests mecanismes?
 * Quin SGBD utilitza la "Room persistence library"?
