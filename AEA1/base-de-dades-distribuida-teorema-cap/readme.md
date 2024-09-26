@@ -3,7 +3,7 @@
 En informàtica teòrica, el teorema CAP, també conegut com a teorema de Brewer, formula que és impossible garantir simultàniament les tres característiques següents en una aplicació distribuïda: 
 
 * Consistència: tots els nodes veuen la mateixa dada al mateix temps.
-* Disponibilitat: la garantia que cada petició a un node rep una resposta de si ha tingut èxit o a fallat.
+* Disponibilitat: cada node del sistema gestor de base de dades podem fer peticions amb éxit de lectura i escriptura.
 * Tolerància a la partició: el sistema continua operant malgrat un error a la xarxa divideixi el sistema ( aïlli certs nodes ).
 
 Això afecta també a les bases de dades distribuides. 
