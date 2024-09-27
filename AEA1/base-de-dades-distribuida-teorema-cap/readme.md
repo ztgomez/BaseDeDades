@@ -10,8 +10,6 @@ En informàtica teòrica, el teorema CAP, també conegut com a teorema de Brewer
 [![YouTube Logo](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)](https://youtu.be/BHqjEjzAicA?si=v90qZabd8KHwPKjU)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BHqjEjzAicA?si=DIHFFMr4LkqdHJ8G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Exemples d'aplicabilitat
 
 ### 1. AP (Disponibilitat i Tolerància a particions)
