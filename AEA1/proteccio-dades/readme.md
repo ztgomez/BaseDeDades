@@ -137,7 +137,7 @@ Llegeix els casos següents i determina si l’entitat és el **responsable** o 
 **Justificació**: L'hospital determina les finalitats (proporcionar atenció mèdica) i els mitjans del tractament de les dades personals dels pacients. És, per tant, el responsable del tractament de les dades i ha d'assegurar que el tractament compleixi amb les normatives de protecció de dades.
 
 
-### Exercici 2: Registre d'activitats de tractament
+## Exercici 2: Registre d'activitats de tractament
 Crea un **registre d'activitats de tractament** per a una empresa fictícia que tracta dades personals dels seus clients per a la següent activitat:
 - Objectiu: Gestió de comandes en una botiga en línia.
 - Dades recollides: nom, adreça de correu electrònic, adreça postal, informació de pagament.
@@ -147,7 +147,7 @@ Crea un **registre d'activitats de tractament** per a una empresa fictícia que 
 
 [Exemple](https://www.mites.gob.es/es/sede_electronica_menu/ficheros/InventarioAT__28102022.pdf)
 
-### Exercici 3: Avaluació d'impacte de protecció de dades (EIPD)
+## Exercici 3: Avaluació d'impacte de protecció de dades (EIPD)
 Imagina que la teva empresa està a punt d'implementar un nou sistema de videovigilància per monitoritzar les instal·lacions. Realitza una **avaluació d'impacte de protecció de dades** (EIPD) tenint en compte els següents punts:
 - Identifica els riscos per als drets i llibertats dels treballadors.
 - Proposa mesures per minimitzar els riscos.
@@ -155,16 +155,16 @@ Imagina que la teva empresa està a punt d'implementar un nou sistema de videovi
 
 [Exemple](https://www.aepd.es/documento/modelo-informe-eipd-aapp.rtf)
 
-### Exercici 4: Notificació de bretxes de seguretat
+## Exercici 4: Notificació de bretxes de seguretat
 Has detectat una bretxa de seguretat en la qual es van filtrar dades personals de clients durant 48 hores. Es van exposar adreces de correu electrònic i noms complets. Redacta un pla d'acció per complir amb les obligacions del **RGPD**:
 1. Descriu els passos a seguir per notificar l’**Autoritat de Control**.
 2. Redacta un missatge per informar els clients afectats.
 3. Explica quines mesures correctives es podrien implementar per evitar futurs incidents.
 
-### Exercici 5: Protecció de dades des del disseny i per defecte
+## Exercici 5: Protecció de dades des del disseny i per defecte
 La teva empresa està desenvolupant una nova aplicació mòbil que recull dades personals d'usuaris. Proposa 3 mesures de **protecció de dades des del disseny** i 3 mesures de **protecció de dades per defecte** que implementaries per garantir el compliment del RGPD.
 
-### Solució a l'Exercici 5: Protecció de dades des del disseny i per defecte
+## Solució a l'Exercici 5: Protecció de dades des del disseny i per defecte
 
 #### Protecció de dades des del disseny
 
@@ -216,7 +216,7 @@ Aquests passos garantiran que la transferència internacional de dades es faci d
 
 
 
-### Exercici 7: Drets dels interessats
+## Exercici 7: Drets dels interessats
 Un client d'una botiga en línia t'ha sol·licitat exercir els següents drets:
 - Accés a les seves dades personals.
 - Rectificació d'informació incorrecta.
