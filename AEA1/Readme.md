@@ -11,10 +11,7 @@
 * [Base de dades distribuida - Conceptes](./base-de-dades-distribuida-components/readme.md)
 * [Base de dades distribuida - Teorema CAP](./base-de-dades-distribuida-teorema-cap/readme.md)
 * [Legislació en Protecció de Dades](./proteccio-dades/readme.md)
-
-## ToDO
-
-* Big data i intel·ligència de negoci
+* [Big data i intel·ligència de negoci](./bigdata/readme.md)
 
 
 ## Resultats d'aprenentatge que treballarem
