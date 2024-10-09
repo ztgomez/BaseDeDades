@@ -13,7 +13,7 @@ Una **transacció** en un Sistema de Gestió de Bases de Dades (SGBD) és una se
    - Assegura que una transacció porta la base de dades d'un estat vàlid a un altre estat vàlid, seguint totes les regles i restriccions definides (com ara claus foranes, restriccions d'integritat, etc.).
 
 3. **Aïllament (Isolation)**  
-   - Garanteix que les operacions d'una transacció no siguin visibles per altres transaccions fins que estigui completada. Això evita efectes laterals d'altres transaccions en execució, assegurant que es comportin com si es processessin de manera seqüencial.
+   - Permet a una transacció aïllar-se, si ho desitja, dels canvis que realitzen altres transaccions a la base de dades. La transacció pot triar el seu nivell d'isolació, des de veure dades no confirmades (dirty read) fins a actuar com si fos l'única transacció en curs a la base de dades.  Això evita efectes laterals d'altres transaccions en execució, assegurant que es comportin com si es processessin de manera seqüencial.
 
 4. **Durabilitat (Durability)**  
    - Un cop una transacció s'ha completat correctament, els canvis són permanents i es mantenen fins i tot en cas de fallades del sistema. Això significa que els resultats de les transaccions es guarden de manera fiable en l'emmagatzematge permanent.

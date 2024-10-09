@@ -1,34 +1,51 @@
-# Base de dades distribuida - Components
+# Introducció a les Bases de Dades Distribuïdes
 
-# Components d’un SGBD distribuït
+Les **bases de dades distribuïdes** són sistemes de bases de dades on les dades no es guarden en un sol lloc, sinó que estan distribuïdes entre múltiples ubicacions físiques o lògiques. Aquestes bases poden estar distribuïdes en diferents servidors dins d’un mateix centre de dades o fins i tot en diferents localitzacions geogràfiques. El principal objectiu de les bases de dades distribuïdes és millorar la disponibilitat, la fiabilitat i l’escalabilitat del sistema.
 
-1. **Node d'emmagatzematge (Data Nodes)**  
-   - Emmagatzemen físicament les dades i gestionen les operacions de lectura i escriptura.
-   - En bases de dades distribuïdes, les dades solen estar particionades o replicades entre múltiples nodes.
+## Node
 
-2. **Node de consulta (Query Nodes)**  
-   - Gestionen les sol·licituds de consultes enviades pels usuaris o aplicacions.
-   - Poden descompondre les consultes i distribuir-les entre els nodes d'emmagatzematge.
-   
-3. **Coordinador o gestor de transaccions (Transaction Coordinator)**  
-   - Garanteix que les transaccions distribuïdes es gestionin correctament, complint amb les propietats ACID.
-   - Implementa protocols com el **two-phase commit (2PC)** per coordinar les transaccions distribuïdes.
+En el context de les bases de dades distribuïdes, un **node** és qualsevol dispositiu o servidor que forma part del sistema distribuït i que emmagatzema una part o la totalitat de la base de dades. Cada node és un component independent que pot contenir dades, processar consultes i comunicar-se amb altres nodes per garantir la coherència i la disponibilitat de les dades.
 
-4. **Catàleg o metadades (Catalog/Metadata Store)**  
-   - Conté la informació sobre l'estructura de la base de dades (esquema), el mapa de dades distribuïdes entre nodes i altres metadades importants.
-   - Ajuda en l'optimització de les consultes i en la localització de dades distribuïdes.
+Els nodes són essencials en una arquitectura distribuïda, ja que permeten que les dades es divideixin o es repliquin entre diferents màquines, oferint redundància i escabilitat al sistema.
 
-5. **Mecanisme de replicació (Replication Manager)**  
-   - Gestiona la duplicació de dades en múltiples nodes per garantir la disponibilitat i la tolerància a fallades.
-   - Pot ser replicació síncrona o asíncrona, depenent de la consistència requerida.
+## Replicació
 
-6. **Mecanisme de particionament (Partitioning Manager)**  
-   - Defineix com es divideixen les dades entre els nodes del sistema (particionament horitzontal, vertical o híbrid).
-   - Garanteix un equilibri de càrrega adequat i una optimització en l'accés a les dades.
+La **replicació** és el procés de copiar i mantenir dades idèntiques en múltiples nodes dins d'una base de dades distribuïda. El principal objectiu de la replicació és augmentar la disponibilitat, la tolerància a fallades i millorar el rendiment del sistema.
 
-7. **Monitoratge i recuperació d'errors (Monitoring and Fault Tolerance)**  
-   - Supervisa el rendiment i l'estat dels nodes i el sistema global.
-   - Inclou mecanismes de recuperació automàtica davant fallades dels nodes per garantir la continuïtat del servei.
+### Tipus de replicació
+
+1. **Replicació sincrònica**: En aquest tipus de replicació, quan una dada es modifica en un node, aquesta modificació s'ha de replicar immediatament a tots els nodes abans de confirmar l'operació. Això garanteix la consistència de les dades, però pot afegir latència, ja que els nodes han de sincronitzar-se abans de completar una transacció.
+
+2. **Replicació asincrònica**: En aquest cas, un cop la dada s'ha modificat en un node, es replica als altres nodes després d'un cert temps, però l'operació es confirma abans que la replicació sigui completa. Això permet un millor rendiment i temps de resposta, però pot generar inconsistències temporals entre els nodes.
+
+### Avantatges de la replicació
+
+- **Alta disponibilitat**: Si un node falla, altres nodes poden continuar oferint accés a les dades.
+- **Tolerància a fallades**: Les dades replicades garanteixen que no es perdin dades en cas de fallada d'un node.
+- **Millora del rendiment**: Els usuaris poden accedir a les dades des del node més proper geogràficament o amb menys càrrega, reduint la latència.
+
+## Particionament de dades
+
+Quan es distribueixen les dades entre diferents servidors o ubicacions, es poden seguir diverses estratègies per particionar-les. Les dues més comunes són el **particionament horitzontal** i el **particionament vertical**.
+
+### Particionament horitzontal
+
+El **particionament horitzontal** (també conegut com *sharding*) consisteix a dividir les files de la taula en diferents nodes o servidors. Cada partició conté un subconjunt de les files de la taula completa. Això és especialment útil quan les taules tenen un gran volum de registres, ja que distribueix la càrrega de processament i emmagatzematge entre diferents servidors.
+
+Per exemple, si tenim una taula amb milions de clients, podem particionar-la horitzontalment distribuint els clients amb un ID parell a un servidor i els clients amb un ID imparell a un altre.
+
+### Particionament vertical
+
+El **particionament vertical** divideix les columnes de la taula entre diferents nodes o servidors. Cada partició conté un subconjunt de les columnes de la taula completa, però totes les files. Això pot ser útil per separar dades sovint accedides conjuntament i optimitzar el rendiment.
+
+Per exemple, en una taula de clients, podem separar les dades d'informació personal (nom, correu electrònic) en un servidor i les dades financeres (comptes, factures) en un altre.
+
+### Diferències clau
+
+- **Particionament horitzontal**: divideix les dades per files, ideal per a escalar en amplada quan hi ha un volum massiu de registres.
+- **Particionament vertical**: divideix les dades per columnes, optimitzant l’accés quan diferents tipus de dades tenen diferents requisits de rendiment o seguretat.
+
+
 
 
 **Exercicis**

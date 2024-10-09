@@ -46,17 +46,39 @@ El **reporting** és el procés de creació d'informes detallats i formals que a
 - **Exemple**: Un dashboard que mostra les vendes diàries, el trànsit web i el rendiment de les campanyes de màrqueting en temps real.
 
 
-## Productes
+## OLTP VS OLAP 
 
-### Bases de dades per a Big Data
+Una base de dades per a Big Data (OLAP) és una eina dissenyada per emmagatzemar, gestionar i processar grans volums de dades que poden ser estructurades, semiestructurades o no estructurades. Aquestes bases de dades permeten l’escalabilitat horitzontal, el processament distribuït i l’anàlisi de dades en temps real o gairebé en temps real, aspectes fonamentals per a les aplicacions modernes que tracten amb grans quantitats d’informació.
 
+### OLTP (Online Transaction Processing)
 
-Una base de dades per a Big Data és una eina dissenyada per emmagatzemar, gestionar i processar grans volums de dades que poden ser estructurades, semiestructurades o no estructurades. Aquestes bases de dades permeten l’escalabilitat horitzontal, el processament distribuït i l’anàlisi de dades en temps real o gairebé en temps real, aspectes fonamentals per a les aplicacions modernes que tracten amb grans quantitats d’informació.
+OLTP és un sistema que es centra en la gestió de transaccions en temps real. Aquest tipus de sistemes s'utilitza en aplicacions com el comerç electrònic, les aplicacions bancàries o els sistemes de punt de venda. Les seves característiques principals són:
 
+- **Consultes curtes i senzilles**: Les consultes són ràpides, dirigides a la manipulació i recuperació de dades per a transaccions individuals, com insercions, actualitzacions o eliminacions.
+- **Alta consistència**: OLTP està dissenyat per mantenir la consistència de les dades durant múltiples transaccions simultànies, seguint el model **ACID**.
+- **Base de dades normalitzades**: S'utilitzen bases de dades altament normalitzades per evitar la redundància de dades.
 
+### OLAP (Online Analytical Processing)
 
+OLAP és un sistema orientat a l'anàlisi de grans volums de dades històriques per a la presa de decisions estratègiques. Aquestes dades es processen de manera multidimensional per permetre l'extracció d'informació i l'anàlisi avançada. Les seves característiques principals són:
 
-| **Característica**                   | **Base de Dades Big Data**                                       | **Base de Dades Operacional (OLTP)**                             |
+- **Consultes complexes**: Les consultes són més lentes i solen implicar l'agrupació i agregació de dades per generar informes i analítiques detallades.
+- **Dades històriques**: OLAP s'utilitza per analitzar dades acumulades al llarg del temps, sovint amb finalitats de **Business Intelligence**.
+- **Base de dades desnormalitzades**: Les dades es guarden en formats desnormalitzats per optimitzar la velocitat de consulta.
+
+### Diferències principals
+
+| Característica      | OLTP                            | OLAP                                   |
+|---------------------|---------------------------------|----------------------------------------|
+| **Objectiu**        | Gestió de transaccions diàries  | Anàlisi de dades històriques           |
+| **Consultes**       | Curtes, enfocades a transaccions| Llargues, complexes i agregades        |
+| **Model de dades**  | Normalitzat                     | Desnormalitzat                         |
+| **Velocitat**       | Alta velocitat per transaccions individuals | Alta velocitat per consultes agregades |
+| **Exemples d'ús**   | Comerç electrònic, banca        | Business Intelligence, informes executius |
+
+### Altres diferències
+
+| **Característica**                   | **Base de Dades Big Data (OLAP)**                                | **Base de Dades Operacional (OLTP)**                             |
 |--------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
 | **Objectiu principal**               | Emmagatzemar i processar grans volums de dades, sovint no estructurades o semiestructurades. | Suportar operacions diàries com transaccions, actualitzacions i recuperació de dades. |
 | **Tipus de dades**                   | Dades estructurades, semiestructurades i no estructurades.        | Dades estructurades (taules, files i columnes).                   |
