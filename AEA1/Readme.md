@@ -12,7 +12,7 @@
 * [Base de dades distribuida - Teorema CAP](./base-de-dades-distribuida-teorema-cap/readme.md)
 * [Legislació en Protecció de Dades](./proteccio-dades/readme.md)
 * [Big data i intel·ligència de negoci](./bigdata/readme.md)
-
+* [Exercici big data visualutzació de dades](./exercici-big-data/readme.md)
 
 ## Resultats d'aprenentatge que treballarem
 
