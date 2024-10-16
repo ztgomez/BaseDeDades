@@ -11,7 +11,7 @@
 | AEA                         | Hores | Resultats d’aprenentatge |
 |-----------------------------|-------|--------------------------|
 | [AEA1 - Introducció a les BD](./AEA1)  | 8     | R1                       |
-| AEA2 - El model entitat relació | 20   | R1, R6                   |
+| [AEA2 - El model entitat relació](./AEA2) | 20   | R1, R6                   |
 | AEA3 - El model relacional   | 20    | R1, R4                   |
 | AEA4 - DML                  | 35    | R3, R4, R6               |
 | AEA5 - DDL                  | 19    | R1, R2                   |
