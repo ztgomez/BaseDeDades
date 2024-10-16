@@ -14,4 +14,5 @@ Un **sistema gestor de base de dades** és un programari `(*1)` especialitzat en
 
 ![SGBD](http://i.imgur.com/qFuNOo6.png)
 
+dada
 
